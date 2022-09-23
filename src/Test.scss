@@ -1,0 +1,16 @@
+.list {
+  $w: 100px !global;
+  $h: 50px !global;
+  li {
+    width: $w;
+    height: $h;
+  }
+  @at-root .box {
+    width: $w;
+    height: $h;
+  }
+}
+
+.list2 {
+  width: $w;
+}
